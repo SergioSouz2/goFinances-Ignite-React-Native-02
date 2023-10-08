@@ -3,7 +3,8 @@ import React from "react";
 import { StatusBar, View } from "react-native";
 import { ThemeProvider } from "styled-components/native";
 
-import { Dashboard } from "./src/screens/Dashboard/Dashboard";
+// import { Dashboard } from "./src/screens/Dashboard/Dashboard";
+import { Register } from "./src/screens/Register/Register";
 
 import theme from "./src/global/styles/theme";
 import {
@@ -30,7 +31,7 @@ export default function App() {
             barStyle={"light-content"}
             backgroundColor={theme.colors.primary}
          />
-         <Dashboard />
+         <Register />
       </ThemeProvider>
    );
 }
